@@ -25,6 +25,7 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
+        setTimeout(function() { window.location = './list.html'; }, 5000);
 
         console.log('Received Event: ' + id);
     }
